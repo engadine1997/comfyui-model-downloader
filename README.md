@@ -2,6 +2,17 @@
 
 Download models from CivitAI, Hugging Face or any direct link into ComfyUI's model folders. Open it with the **Models** button in the top action bar (next to Run), or bind the `Toggle Model Downloader` command to a key.
 
+## Installation
+
+Install like any other custom node:
+
+Clone this repo to your `custom_nodes` folder:
+
+```shell
+cd C:/path/to/comfyui/custom_nodes
+git clone https://github.com/engadine1997/comfyui-model-downloader.git
+```
+
 ## Usage
 
 1. Paste a link and press Enter (pasting runs Inspect automatically; dropping a link on the window works too).
